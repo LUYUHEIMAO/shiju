@@ -68,6 +68,6 @@ public class changhengge {
 	}
 }
 六、系统运行截图
-
+![image](https://github.com/LUYUHEIMAO/shiju/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191118154139.png)
 七、编程感想
 这次实验让我运用到了函数和异常处理，让我对其的认识更加深刻
