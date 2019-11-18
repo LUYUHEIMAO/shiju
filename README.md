@@ -25,7 +25,13 @@ public class changhengge {
 	public static void main(String args[]) {
 		System.out.println("请输入你所要整理对齐的古诗：");
 		Scanner input = new Scanner(System.in);
-		String str = input.nextLine();
+		try{
+			System.out.println("请重新输入");
+			String str = input.nextLine();
+		}catch(IOException e){
+			e.printStackTrace();
+			System.out.println("IO'S type error!");
+		}
 		for (int a = 0; a < str.length() / 7; a++) {
 			if (a % 2 == 0) {
 				String subTest1 = str.substring(a * 7 + 0, a * 7 + 7);
