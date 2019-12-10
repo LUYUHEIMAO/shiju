@@ -13,7 +13,7 @@
 用Scanner input = new Scanner(System.in)和String str = input.nextLine()构建输入，在用if语句在规律处阶段加逗号和句号，然后编写函数进行小串查找，最后在输入处添加异常处理。
 ## 四、流程图
 ![image](https://github.com/LUYUHEIMAO/shiju/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191118154632.png)
-五、核心代码
+## 五、核心代码
 package chang;
 
 import chang.*;
